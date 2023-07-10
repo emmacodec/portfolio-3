@@ -1,8 +1,13 @@
-
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div>DAN</div>
+    <div>
+      <Navbar />
+      <Home />
+    </div>
   );
 }
 
