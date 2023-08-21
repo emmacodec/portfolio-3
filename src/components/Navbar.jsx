@@ -26,7 +26,7 @@ const Navbar = () => {
       
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
         {!nav ? <FaBars /> : <FaBars />}
       </div>
 
@@ -45,19 +45,19 @@ const Navbar = () => {
         <ul>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
                 <a className="flex justify-between items-center w-full text-gray-300" 
-                href="/">
+                href="https://www.linkedin.com/in/daniel-emmanuel-924564236">
                     Linkedin <FaLinkedin size={30} />
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
                 <a className="flex justify-between items-center w-full text-gray-300" 
-                href="/">
+                href="https://www.github.com/emmacodec">
                     Github <FaGithub size={30} />
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                 <a className="flex justify-between items-center w-full text-gray-300" 
-                href="/">
+                href="https://ojochideteidi@gmail.com">
                     Email <HiOutlineMail size={30} />
                 </a>
             </li>
@@ -69,13 +69,13 @@ const Navbar = () => {
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
                 <a className="flex justify-between items-center w-full text-gray-300" 
-                href="/">
+                href="https://www.facebook.com/profile.php?id=100037149882981">
                     FaceBook <FaFacebook size={30} />
                 </a>
             </li>
             <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                 <a className="flex justify-between items-center w-full text-gray-300" 
-                href="/">
+                href="https://wa.me/2348164060988">
                     Whatsapp <FaWhatsapp size={30} />
                 </a>
             </li>
