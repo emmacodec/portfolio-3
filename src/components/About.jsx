@@ -19,7 +19,7 @@ const About = () => {
                 <div className='text-2xl font=bold'>
                     <p>I'm keen about building excellent softwares that improves the lives of those
                         around me. I specialize in creating softwares for clients ranging from
-                        individuals to small-businesses all the way to large enterprise or corporations.
+                        individuals to small-businesses all the way to large enterprise or corporations.!
                         What would you do if you had a software expert available at your disposal?</p>
                 </div>
             </div>
