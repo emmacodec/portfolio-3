@@ -75,7 +75,7 @@ const Work = () => {
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Work;
